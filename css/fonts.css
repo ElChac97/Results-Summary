@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Hanken Grotesk';
-    src: url(fonts/HankenGrotesk-VariableFont_wght.ttf) format(truetype);
-}
-
-body{
-    font-family: 'Hanken Grotesk', sans-serif;
-
-}
