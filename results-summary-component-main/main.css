@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    font-display: swap;
+    font-weight: 100 900;
+    src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf)
+        format('truetype');
+    
+}
+
+:root{
+    --clr-primary-hsl-400: hsl(252, 100%, 67%);
+    --clr-primary-hsl-500: hsla(256, 72%, 46%, 1);
+    --clr-secondary-hsl-400: hsl(241, 81%, 54%);
+    --clr-secondary-hsl-500: hsla(241, 72%, 46%, 0);
+
+    --clr-neutral-hsl-100: hsl(0, 0%, 100%);
+    --clr-neutral-hsl-200: hsl(221, 100%, 96%);
+    --clr-neutral-hsl-300: hsl(241, 100%, 89%);
+    --clr-neutral-hsl-700: hsl(224, 30%, 27%);
+
+ 
+    
+    --gradient-primary: linear-gradient(zl
+        var(--clr-primary-hsl-400),
+        var(--clr-secondary-hsl-400));
+
+    --gradient-to-transparent: linear-gradient(
+        var(--clr-primary-hsl-500),
+        hsl(var(--clr-secondary-hsl-500)));
+
+    --clr-accent-1: hsl(0, 100%, 67%);
+    --clr-accent-2: hsl(39, 100%, 56%);
+    --clr-accent-3: hsl(166, 100%, 37%);
+    --clr-accent-4: hsl(234, 85%, 45%);
+
+    --default-fontfamily: 'Hanken Grotesk';
+
+    --fw-regular: 500;
+    --fw-bold: 700;
+    --fw-black: 800;
+
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 1.75rem;
+    --fs-800: 2rem;
+    --fs-900: 5rem;
+}
+
+ *,
+ *::before,
+ *::after{
+    box-sizing: border-box;
+ }
+
+ *{
+    margin: 0;
+    font: inherit;
+ }
+
+img,
+svg{
+    display: block;
+    max-width: 100%;
+}
